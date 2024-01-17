@@ -1,6 +1,10 @@
-# MeZO: Fine-Tuning Language Models with Just Forward Passes
+# (fork of) MeZO: Fine-Tuning Language Models with Just Forward Passes
 
-This is the implementation for the paper [Fine-Tuning Language Models with Just Forward Passes](https://arxiv.org/pdf/2305.17333.pdf). 
+# NOTE: This is a fork of the paper author's original repo: https://github.com/princeton-nlp/MeZO
+
+---------
+
+This is (a fork of) the implementation for the paper [Fine-Tuning Language Models with Just Forward Passes](https://arxiv.org/pdf/2305.17333.pdf).
 In this paper we propose a memory-efficient zeroth-order optimizer (**MeZO**),
 adapting the classical zeroth-order SGD method to operate in-place, thereby fine-tuning language models (LMs) with the same memory footprint as inference.
 
